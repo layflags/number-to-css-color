@@ -2,7 +2,7 @@
   "name": "number-to-css-color",
   "version": "0.1.0",
   "description": "Converts number to CSS hex color",
-  "main": "index.js",
+  "main": "dist/number-to-css-color.js",
   "scripts": {
     "test": "babel-node test.js",
     "lint": "standard",
