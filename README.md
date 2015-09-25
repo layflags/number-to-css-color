@@ -6,7 +6,7 @@ Converts a number to a CSS hex color. It even supports the [upcoming CSS4 8 digi
 
 ## Install
 
-```sh
+```bash
 npm install number-to-css-color
 ```
 
@@ -16,12 +16,12 @@ npm install number-to-css-color
 import convert from 'number-to-css-color'
 
 console.log(convert(0xf)) // -> "#00000f"
-console.log(convert(0x10c, {alpha: true}); // -> "#0000010c"
+console.log(convert(0x10c, {alpha: true})) // -> "#0000010c"
 ```
 
 ## Test
 
-```sh
+```bash
 npm test
 ```
 
