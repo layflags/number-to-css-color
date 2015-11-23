@@ -1,1 +1,8 @@
+.DS_Store
+*~
+*.swp
+*.swo
+.*
 src/
+test.js
+node_modules/
