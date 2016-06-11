@@ -9,6 +9,10 @@
     "compile": "babel -d dist/ src/",
     "prepublish": "npm run lint && npm test && npm run compile"
   },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
   "pre-commit": [
     "lint",
     "test"
